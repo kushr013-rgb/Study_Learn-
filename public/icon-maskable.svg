@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Astra Prep">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6d55e2"/>
+      <stop offset="100%" stop-color="#4832a5"/>
+    </linearGradient>
+  </defs>
+  <!-- Full bleed so the icon survives any maskable safe-zone crop -->
+  <rect width="512" height="512" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 340 248 242l60 60 108-124"/>
+    <path d="M344 178h72v68"/>
+  </g>
+</svg>

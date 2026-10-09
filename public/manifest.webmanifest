@@ -1,0 +1,49 @@
+{
+  "name": "Astra Prep — Practice & Assessment",
+  "short_name": "Astra Prep",
+  "description": "A personalised practice and assessment platform for JEE, NEET, Class 10 and Class 12 students.",
+  "id": "/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f8fa",
+  "theme_color": "#573ec9",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Practice",
+      "short_name": "Practice",
+      "description": "Start a practice set",
+      "url": "./#/student/practice"
+    },
+    {
+      "name": "Mock Tests",
+      "short_name": "Tests",
+      "description": "Browse and attempt mock tests",
+      "url": "./#/student/tests"
+    },
+    {
+      "name": "Mistake Book",
+      "short_name": "Mistakes",
+      "description": "Re-attempt your wrong answers",
+      "url": "./#/student/mistakes"
+    }
+  ]
+}
